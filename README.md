@@ -8,10 +8,10 @@ Track the release health of your entire stack at a glance. These badges pull rea
 
 | Type | What it shows | Example |
 |------|--------------|---------|
-| **Freshness** | How current a version is | ![Python Freshness](https://img.releaserun.com/badge/v/python.svg) |
-| **EOL Status** | End-of-life / support status | ![Python EOL](https://img.releaserun.com/badge/eol/python.svg) |
-| **CVE Count** | Known vulnerabilities | ![Python CVE](https://img.releaserun.com/badge/cve/python.svg) |
-| **Health Grade** | Overall release health (A-F) | ![Python Health](https://img.releaserun.com/badge/health/python.svg) |
+| **Health** | Overall release health (A-F) | ![Python Health](https://img.releaserun.com/badge/health/python.svg) |
+| **Freshness** | How current a version is | ![Python 3.13 Freshness](https://img.releaserun.com/badge/v/python/3.13.svg) |
+| **EOL Status** | End-of-life / support status | ![Python 3.13 EOL](https://img.releaserun.com/badge/eol/python/3.13.svg) |
+| **CVE Count** | Known vulnerabilities | ![Python 3.13 CVE](https://img.releaserun.com/badge/cve/python/3.13.svg) |
 | **Version Health** | Health for a specific version | ![Python 3.12 Health](https://img.releaserun.com/badge/health/python/3.12.svg) |
 
 Health grades are computed from freshness (35%), security (35%), and EOL status (30%). [Scoring methodology →](https://releaserun.com)
@@ -21,101 +21,103 @@ Health grades are computed from freshness (35%), security (35%), and EOL status 
 ## Languages
 
 ### Python
-[![Latest Version](https://img.releaserun.com/badge/v/python.svg)](https://releaserun.com/python-releases)
-[![EOL Status](https://img.releaserun.com/badge/eol/python.svg)](https://releaserun.com/python-releases)
-[![CVE Count](https://img.releaserun.com/badge/cve/python.svg)](https://releaserun.com/python-releases)
 [![Health](https://img.releaserun.com/badge/health/python.svg)](https://releaserun.com/python-releases)
+[![Python 3.13 Freshness](https://img.releaserun.com/badge/v/python/3.13.svg)](https://releaserun.com/python-releases)
+[![Python 3.13 EOL](https://img.releaserun.com/badge/eol/python/3.13.svg)](https://releaserun.com/python-releases)
+[![Python 3.13 CVE](https://img.releaserun.com/badge/cve/python/3.13.svg)](https://releaserun.com/python-releases)
 
-Version-specific: 
+Version health:
+[![Python 3.13](https://img.releaserun.com/badge/health/python/3.13.svg)](https://releaserun.com/python-releases)
 [![Python 3.12](https://img.releaserun.com/badge/health/python/3.12.svg)](https://releaserun.com/python-releases)
 [![Python 3.11](https://img.releaserun.com/badge/health/python/3.11.svg)](https://releaserun.com/python-releases)
 [![Python 3.10](https://img.releaserun.com/badge/health/python/3.10.svg)](https://releaserun.com/python-releases)
 
 ### Node.js
-[![Latest Version](https://img.releaserun.com/badge/v/nodejs.svg)](https://releaserun.com/node-js-releases)
-[![EOL Status](https://img.releaserun.com/badge/eol/nodejs.svg)](https://releaserun.com/node-js-releases)
-[![CVE Count](https://img.releaserun.com/badge/cve/nodejs.svg)](https://releaserun.com/node-js-releases)
 [![Health](https://img.releaserun.com/badge/health/nodejs.svg)](https://releaserun.com/node-js-releases)
+[![Node 22 Freshness](https://img.releaserun.com/badge/v/nodejs/22.svg)](https://releaserun.com/node-js-releases)
+[![Node 22 EOL](https://img.releaserun.com/badge/eol/nodejs/22.svg)](https://releaserun.com/node-js-releases)
+[![Node 22 CVE](https://img.releaserun.com/badge/cve/nodejs/22.svg)](https://releaserun.com/node-js-releases)
 
-Version-specific:
+Version health:
 [![Node 22 LTS](https://img.releaserun.com/badge/health/nodejs/22.svg)](https://releaserun.com/node-js-releases)
 [![Node 20 LTS](https://img.releaserun.com/badge/health/nodejs/20.svg)](https://releaserun.com/node-js-releases)
 [![Node 18](https://img.releaserun.com/badge/health/nodejs/18.svg)](https://releaserun.com/node-js-releases)
 
 ### Go
-[![Latest Version](https://img.releaserun.com/badge/v/go.svg)](https://releaserun.com/go-releases)
-[![EOL Status](https://img.releaserun.com/badge/eol/go.svg)](https://releaserun.com/go-releases)
-[![CVE Count](https://img.releaserun.com/badge/cve/go.svg)](https://releaserun.com/go-releases)
 [![Health](https://img.releaserun.com/badge/health/go.svg)](https://releaserun.com/go-releases)
+[![Go 1.25 Freshness](https://img.releaserun.com/badge/v/go/1.25.svg)](https://releaserun.com/go-releases)
+[![Go 1.25 EOL](https://img.releaserun.com/badge/eol/go/1.25.svg)](https://releaserun.com/go-releases)
+[![Go 1.25 CVE](https://img.releaserun.com/badge/cve/go/1.25.svg)](https://releaserun.com/go-releases)
 
 ### Rust
-[![Latest Version](https://img.releaserun.com/badge/v/rust.svg)](https://releaserun.com/rust-releases)
-[![EOL Status](https://img.releaserun.com/badge/eol/rust.svg)](https://releaserun.com/rust-releases)
-[![CVE Count](https://img.releaserun.com/badge/cve/rust.svg)](https://releaserun.com/rust-releases)
 [![Health](https://img.releaserun.com/badge/health/rust.svg)](https://releaserun.com/rust-releases)
+[![Rust 1.93 Freshness](https://img.releaserun.com/badge/v/rust/1.93.svg)](https://releaserun.com/rust-releases)
+[![Rust 1.93 EOL](https://img.releaserun.com/badge/eol/rust/1.93.svg)](https://releaserun.com/rust-releases)
+[![Rust 1.93 CVE](https://img.releaserun.com/badge/cve/rust/1.93.svg)](https://releaserun.com/rust-releases)
 
 ### Ruby
-[![Latest Version](https://img.releaserun.com/badge/v/ruby.svg)](https://releaserun.com)
-[![EOL Status](https://img.releaserun.com/badge/eol/ruby.svg)](https://releaserun.com)
-[![CVE Count](https://img.releaserun.com/badge/cve/ruby.svg)](https://releaserun.com)
 [![Health](https://img.releaserun.com/badge/health/ruby.svg)](https://releaserun.com)
+[![Ruby 4.0 Freshness](https://img.releaserun.com/badge/v/ruby/4.0.svg)](https://releaserun.com)
+[![Ruby 4.0 EOL](https://img.releaserun.com/badge/eol/ruby/4.0.svg)](https://releaserun.com)
+[![Ruby 4.0 CVE](https://img.releaserun.com/badge/cve/ruby/4.0.svg)](https://releaserun.com)
 
 ### PHP
-[![Latest Version](https://img.releaserun.com/badge/v/php.svg)](https://releaserun.com)
-[![EOL Status](https://img.releaserun.com/badge/eol/php.svg)](https://releaserun.com)
-[![CVE Count](https://img.releaserun.com/badge/cve/php.svg)](https://releaserun.com)
 [![Health](https://img.releaserun.com/badge/health/php.svg)](https://releaserun.com)
+[![PHP 8.5 Freshness](https://img.releaserun.com/badge/v/php/8.5.svg)](https://releaserun.com)
+[![PHP 8.5 EOL](https://img.releaserun.com/badge/eol/php/8.5.svg)](https://releaserun.com)
+[![PHP 8.5 CVE](https://img.releaserun.com/badge/cve/php/8.5.svg)](https://releaserun.com)
 
 ---
 
 ## Frameworks
 
 ### React
-[![Latest Version](https://img.releaserun.com/badge/v/react.svg)](https://releaserun.com/react-releases)
-[![EOL Status](https://img.releaserun.com/badge/eol/react.svg)](https://releaserun.com/react-releases)
-[![CVE Count](https://img.releaserun.com/badge/cve/react.svg)](https://releaserun.com/react-releases)
 [![Health](https://img.releaserun.com/badge/health/react.svg)](https://releaserun.com/react-releases)
+[![React 19 Freshness](https://img.releaserun.com/badge/v/react/19.svg)](https://releaserun.com/react-releases)
+[![React 19 EOL](https://img.releaserun.com/badge/eol/react/19.svg)](https://releaserun.com/react-releases)
+[![React 19 CVE](https://img.releaserun.com/badge/cve/react/19.svg)](https://releaserun.com/react-releases)
 
 ### Django
-[![Latest Version](https://img.releaserun.com/badge/v/django.svg)](https://releaserun.com)
-[![EOL Status](https://img.releaserun.com/badge/eol/django.svg)](https://releaserun.com)
-[![CVE Count](https://img.releaserun.com/badge/cve/django.svg)](https://releaserun.com)
 [![Health](https://img.releaserun.com/badge/health/django.svg)](https://releaserun.com)
+[![Django 6.0 Freshness](https://img.releaserun.com/badge/v/django/6.0.svg)](https://releaserun.com)
+[![Django 6.0 EOL](https://img.releaserun.com/badge/eol/django/6.0.svg)](https://releaserun.com)
+[![Django 6.0 CVE](https://img.releaserun.com/badge/cve/django/6.0.svg)](https://releaserun.com)
 
 ### Angular
-[![Latest Version](https://img.releaserun.com/badge/v/angular.svg)](https://releaserun.com)
-[![EOL Status](https://img.releaserun.com/badge/eol/angular.svg)](https://releaserun.com)
-[![CVE Count](https://img.releaserun.com/badge/cve/angular.svg)](https://releaserun.com)
 [![Health](https://img.releaserun.com/badge/health/angular.svg)](https://releaserun.com)
+[![Angular 21 Freshness](https://img.releaserun.com/badge/v/angular/21.svg)](https://releaserun.com)
+[![Angular 21 EOL](https://img.releaserun.com/badge/eol/angular/21.svg)](https://releaserun.com)
+[![Angular 21 CVE](https://img.releaserun.com/badge/cve/angular/21.svg)](https://releaserun.com)
 
 ---
 
 ## Infrastructure
 
 ### Kubernetes
-[![Latest Version](https://img.releaserun.com/badge/v/kubernetes.svg)](https://releaserun.com/kubernetes-releases)
-[![EOL Status](https://img.releaserun.com/badge/eol/kubernetes.svg)](https://releaserun.com/kubernetes-releases)
-[![CVE Count](https://img.releaserun.com/badge/cve/kubernetes.svg)](https://releaserun.com/kubernetes-releases)
 [![Health](https://img.releaserun.com/badge/health/kubernetes.svg)](https://releaserun.com/kubernetes-releases)
+[![K8s 1.35 Freshness](https://img.releaserun.com/badge/v/k8s/1.35.svg)](https://releaserun.com/kubernetes-releases)
+[![K8s 1.35 EOL](https://img.releaserun.com/badge/eol/k8s/1.35.svg)](https://releaserun.com/kubernetes-releases)
+[![K8s 1.35 CVE](https://img.releaserun.com/badge/cve/k8s/1.35.svg)](https://releaserun.com/kubernetes-releases)
 
-Version-specific:
+Version health:
+[![K8s 1.35](https://img.releaserun.com/badge/health/k8s/1.35.svg)](https://releaserun.com/kubernetes-releases)
+[![K8s 1.34](https://img.releaserun.com/badge/health/k8s/1.34.svg)](https://releaserun.com/kubernetes-releases)
+[![K8s 1.33](https://img.releaserun.com/badge/health/k8s/1.33.svg)](https://releaserun.com/kubernetes-releases)
 [![K8s 1.32](https://img.releaserun.com/badge/health/k8s/1.32.svg)](https://releaserun.com/kubernetes-releases)
-[![K8s 1.31](https://img.releaserun.com/badge/health/k8s/1.31.svg)](https://releaserun.com/kubernetes-releases)
-[![K8s 1.30](https://img.releaserun.com/badge/health/k8s/1.30.svg)](https://releaserun.com/kubernetes-releases)
 
 ### Docker Engine
-[![Latest Version](https://img.releaserun.com/badge/v/docker-engine.svg)](https://releaserun.com/docker-releases)
-[![EOL Status](https://img.releaserun.com/badge/eol/docker-engine.svg)](https://releaserun.com/docker-releases)
-[![CVE Count](https://img.releaserun.com/badge/cve/docker-engine.svg)](https://releaserun.com/docker-releases)
 [![Health](https://img.releaserun.com/badge/health/docker-engine.svg)](https://releaserun.com/docker-releases)
+[![Docker 29 Freshness](https://img.releaserun.com/badge/v/docker-engine/29.svg)](https://releaserun.com/docker-releases)
+[![Docker 29 EOL](https://img.releaserun.com/badge/eol/docker-engine/29.svg)](https://releaserun.com/docker-releases)
+[![Docker 29 CVE](https://img.releaserun.com/badge/cve/docker-engine/29.svg)](https://releaserun.com/docker-releases)
 
 ### PostgreSQL
-[![Latest Version](https://img.releaserun.com/badge/v/postgresql.svg)](https://releaserun.com/postgresql-releases)
-[![EOL Status](https://img.releaserun.com/badge/eol/postgresql.svg)](https://releaserun.com/postgresql-releases)
-[![CVE Count](https://img.releaserun.com/badge/cve/postgresql.svg)](https://releaserun.com/postgresql-releases)
 [![Health](https://img.releaserun.com/badge/health/postgresql.svg)](https://releaserun.com/postgresql-releases)
+[![PG 17 Freshness](https://img.releaserun.com/badge/v/postgresql/17.svg)](https://releaserun.com/postgresql-releases)
+[![PG 17 EOL](https://img.releaserun.com/badge/eol/postgresql/17.svg)](https://releaserun.com/postgresql-releases)
+[![PG 17 CVE](https://img.releaserun.com/badge/cve/postgresql/17.svg)](https://releaserun.com/postgresql-releases)
 
-Version-specific:
+Version health:
 [![PG 17](https://img.releaserun.com/badge/health/postgresql/17.svg)](https://releaserun.com/postgresql-releases)
 [![PG 16](https://img.releaserun.com/badge/health/postgresql/16.svg)](https://releaserun.com/postgresql-releases)
 [![PG 15](https://img.releaserun.com/badge/health/postgresql/15.svg)](https://releaserun.com/postgresql-releases)
@@ -125,10 +127,15 @@ Version-specific:
 ## Runtime
 
 ### .NET
-[![Latest Version](https://img.releaserun.com/badge/v/dotnet.svg)](https://releaserun.com)
-[![EOL Status](https://img.releaserun.com/badge/eol/dotnet.svg)](https://releaserun.com)
-[![CVE Count](https://img.releaserun.com/badge/cve/dotnet.svg)](https://releaserun.com)
 [![Health](https://img.releaserun.com/badge/health/dotnet.svg)](https://releaserun.com)
+[![.NET 10 Freshness](https://img.releaserun.com/badge/v/dotnet/10.svg)](https://releaserun.com)
+[![.NET 10 EOL](https://img.releaserun.com/badge/eol/dotnet/10.svg)](https://releaserun.com)
+[![.NET 10 CVE](https://img.releaserun.com/badge/cve/dotnet/10.svg)](https://releaserun.com)
+
+Version health:
+[![.NET 10](https://img.releaserun.com/badge/health/dotnet/10.svg)](https://releaserun.com)
+[![.NET 9](https://img.releaserun.com/badge/health/dotnet/9.svg)](https://releaserun.com)
+[![.NET 8 LTS](https://img.releaserun.com/badge/health/dotnet/8.svg)](https://releaserun.com)
 
 ---
 
@@ -153,12 +160,14 @@ Version-specific:
    :alt: Python Health
 ```
 
-### URL Pattern
+### URL Patterns
 ```
-https://img.releaserun.com/badge/{type}/{product}[/{version}].svg
+Health (latest):  https://img.releaserun.com/badge/health/{product}.svg
+Health (version): https://img.releaserun.com/badge/health/{product}/{version}.svg
+Freshness:        https://img.releaserun.com/badge/v/{product}/{version}.svg
+EOL Status:       https://img.releaserun.com/badge/eol/{product}/{version}.svg
+CVE Count:        https://img.releaserun.com/badge/cve/{product}/{version}.svg
 ```
-
-**Types:** `v` (freshness), `eol`, `cve`, `health`
 
 ### Query Parameters
 | Parameter | Description | Example |
